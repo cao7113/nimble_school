@@ -29,6 +29,7 @@ if config_env() == :dev do
     live_reload: [
       web_console_logger: true,
       patterns: [
+        ~r"posts/*/.*(md)$",
         # Static assets, except user uploads
         ~r"priv/static/(?!uploads/).*\.(js|css|png|jpeg|jpg|gif|svg)$"E,
         # Gettext translations

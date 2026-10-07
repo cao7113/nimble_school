@@ -69,7 +69,10 @@ defmodule NimbleSchool.MixProject do
       {:gettext, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      # {:makeup_elixir, ">= 0.0.0", runtime: false},
+      # {:makeup_erlang, ">= 0.0.0", runtime: false},
+      {:nimble_publisher, "~> 2.0", runtime: false}
     ]
   end
 

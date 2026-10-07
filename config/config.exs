@@ -7,6 +7,8 @@
 # General application configuration
 import Config
 
+config :mdex_native, syntax_highlighter: :syntect
+
 config :nimble_school,
   generators: [timestamp_type: :utc_datetime]
 

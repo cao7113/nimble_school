@@ -1,6 +1,11 @@
 # NimbleSchool
 
 - https://elixirschool.com/en/lessons/misc/nimble_publisher
+- https://github.com/jaimeiniesta/nimble_school
+- https://github.com/dashbitco/nimble_publisher
+- https://nimble-publisher.hexdocs.pm/NimblePublisher.html
+
+## Get started
 
 To start your Phoenix server:
 
